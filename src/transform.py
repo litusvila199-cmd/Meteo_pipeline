@@ -44,7 +44,7 @@ def main():
 
     print(df.head())
     print()
-    print(df.info())
+    df.info()
 
 
 if __name__ == "__main__":
